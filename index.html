@@ -617,11 +617,15 @@
           </div>
 
           <label class="modal-lb" for="">Коментар</label>
-            <textarea class="modal-comment" name="comment" rows="5" placeholder="Введіть текст"></textarea>
+            <textarea class="modal-comment" name="comment" rows="" placeholder="Введіть текст"></textarea>
           
           </div>
           <label class="checkbox-lb">
-          <input class="checkbox-input" type="checkbox" name="" value="" />
+          <input class="checkbox-input hidden" type="checkbox" name="user-agreement" value="accept-policy" />
+          <svg class="checkbox-icon" width="15" height="16">
+            <use class="unchecked" href="./images/icons..svg#icon-checkbox"></use>
+            <use class="checked" href="./images/icons..svg#icon-check"></use>
+          </svg>
           Погоджуюся з розсилкою та приймаю <a class="modal-link" href="">Умови договору</a></label>
           <button class="send-btn" type="submit">Відправити</button>
           </form>
