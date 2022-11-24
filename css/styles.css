@@ -768,6 +768,10 @@ img {
   fill: #2196f3;
 }
 
+.modal-group:focus-within .modal-icon {
+  fill: #2196f3;
+}
+
 .modal-icon {
   position: absolute;
   top: 50%;
